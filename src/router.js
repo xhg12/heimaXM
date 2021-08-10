@@ -4,6 +4,8 @@ import Home from './pages/Home.vue'
 import Login from './pages/Login.vue'
 import Welcome from './pages/Welcome.vue'
 import Users from './pages/user/Users.vue'
+import Rights from './pages/power/Rights.vue'
+import Roles from './pages/power/Roles.vue'
 
 Vue.use(VueRouter)
 
@@ -18,7 +20,9 @@ const router = new VueRouter({
       redirect: '/welcome',
       children: [
         { path: '/welcome', component: Welcome },
-        { path: '/users', component: Users }
+        { path: '/users', component: Users },
+        { path: '/rights', component: Rights },
+        { path: '/roles', component: Roles }
       ]
     }
   ]
