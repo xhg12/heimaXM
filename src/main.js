@@ -7,6 +7,8 @@ import './plugins/element'
 //导入全局样式表
 import './assets/css/global.css'
 
+import TreeTable from 'vue-table-with-tree-grid'
+
 import axios from 'axios'
 //配置请求的根路径
 axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
@@ -36,6 +38,7 @@ Vue.config.productionTip = false
 // Vue.component('el-row', Row);
 // Vue.component('el-date-picker', DatePicker);
 
+Vue.component('tree-table', TreeTable)
 //创建Vue的实例对象vm
 new Vue({
   el: '#app',
