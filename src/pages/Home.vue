@@ -92,7 +92,7 @@ export default {
           path: 'goods',
           children: [
             { id: 1005, authName: '商品列表', path: 'goods' },
-            { id: 1006, authName: '分类参数', path: 'goods' },
+            { id: 1006, authName: '分类参数', path: 'params' },
             { id: 1007, authName: '商品分类', path: 'categories' }
           ]
         },
