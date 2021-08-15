@@ -6,6 +6,7 @@ body,
   margin: 0;
   padding: 0;
   min-width: 1366px;
+  /* width: 100%; */
 }
 
 .el-breadcrumb {
@@ -24,4 +25,12 @@ body,
 
 .el-pagination {
   margin-top: 15px;
+}
+
+.el-step__title {
+  font-style: 13px;
+}
+
+.ql-editor {
+  min-height: 300px;
 }
