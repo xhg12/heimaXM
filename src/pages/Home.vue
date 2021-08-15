@@ -100,7 +100,7 @@ export default {
           id: 103,
           authName: '订单管理',
           path: 'orders',
-          children: [{ id: 1008, authName: '订单列表', path: 'goods' }]
+          children: [{ id: 1008, authName: '订单列表', path: 'orders' }]
         },
         {
           id: 104,
